@@ -1,0 +1,18 @@
+.bo-diagonal {
+    position: sticky;
+    padding: 0.5rem;
+    height: 5rem;
+    top: 0;
+    left: 0;
+    display: inline-block;
+}
+.bo-diagonal::after {
+    position: absolute;
+    top: -1rem;
+    left: 3rem;
+    height: 15rem;
+    content: "";
+    border-right: 1px white solid;
+
+    transform: skewX(-30deg);
+}

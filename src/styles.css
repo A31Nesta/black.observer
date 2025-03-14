@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: Marcellus;
+    src: url('./assets/fonts/Marcellus-Regular.ttf');
+}
+
+@theme {
+    --font-marcellus: "Marcellus";
+}
+
+html,
+body {
+    @apply bg-gray-950 text-amber-50;
+
+    /* @media (prefers-color-scheme: dark) {
+        color-scheme: dark;
+    } */
+}
