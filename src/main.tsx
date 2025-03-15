@@ -6,15 +6,27 @@ import './styles.css'
 import BOLibraries from './pages/libraries.tsx'
 import Negen1 from './pages/libraries/negen1.tsx'
 import Negen2 from './pages/libraries/negen2.tsx'
+import Negen3 from './pages/libraries/negen3.tsx'
+import Reclibs from './pages/reclibs.tsx'
+import Obstruction from './pages/reclibs/obstruction.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <BrowserRouter>
     <StrictMode>
       <Routes>
         <Route path='/' element={<App />} />
-        <Route path='/libraries' element={<BOLibraries />} />
-        <Route path='/libraries/negen1' element={<Negen1 />} />
-        <Route path='/libraries/negen2' element={<Negen2 />} />
+
+        <Route path='/libraries'>
+          <Route index element={<BOLibraries />} />
+          <Route path='negen1' element={<Negen1 />} />
+          <Route path='negen2' element={<Negen2 />} />
+          <Route path='negen3' element={<Negen3 />} />
+        </Route>
+
+        <Route path='/reclibs'>
+          <Route index element={<Reclibs />} />
+          <Route path='obstruction' element={<Obstruction />} />
+        </Route>
       </Routes>
     </StrictMode>
   </BrowserRouter>,

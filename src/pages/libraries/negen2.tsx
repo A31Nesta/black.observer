@@ -48,10 +48,10 @@ function Negen2() {
                         I took the L and moved on, this time with a better idea of how to structure the systems.
                     </p>
                     <h3 className="text-xl my-4">Occlusion, the truly modular engine</h3>
-                    <Link to="/libraries/negen2" className="text-center block p-4 border border-gray-400 text-gray-300 rounded-xl
+                    <Link to="/libraries/negen3" className="text-center block p-4 border border-gray-400 text-gray-300 rounded-xl
                         hover:border-white hover:text-white
                     ">
-                        Obstruction
+                        Occlusion
                     </Link>
                 </BOTextEd>
             </main>
