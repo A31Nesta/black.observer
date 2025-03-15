@@ -5,7 +5,7 @@ import { Link } from "react-router";
 
 function App() {
     return (
-        <div className="bg-gradient-to-br from-gray-950 to-fuchsia-950/50 h-lvh">
+        <div className="bg-gradient-to-br from-gray-950 to-fuchsia-950/50 min-h-lvh">
             <BONav></BONav>
             <main className="m-auto max-w-5xl p-4 pt-5">
                 <h2 className="text-center text-4xl text-fuchsia-50 mb-4 font-mono">Graphics</h2>
@@ -14,18 +14,20 @@ function App() {
                     These are the past and current projects that I've been making to learn graphics:
                 </p>
                 
-                <div className="flex gap-4">
+                <div className="flex gap-4 flex-col md:flex-row">
                     {/* Nesta Engines... */}
                     <Link to="/libraries" className="basis-1/2">
-                        <div className="border border-green-200/50 p-4 rounded-2xl h-110 flex flex-col
+                        <div className="border border-green-200/50 p-4 rounded-2xl h-full flex flex-col justify-between
                             transition hover:shadow-2xl hover:shadow-green-200/50 hover:scale-101
                         ">
-                            <h3 className="text-3xl text-amber-100">Libraries</h3>
-                            <p className="text-green-200 my-5">
-                                Experimental game engines built to practice programming concepts and learn graphics.
-                                <br />
-                                Other libraries are often modules for these engines.
-                            </p>
+                            <div>
+                                <h3 className="text-3xl text-amber-100">Libraries</h3>
+                                <p className="text-green-200 my-5">
+                                    Experimental game engines built to practice programming concepts and learn graphics.
+                                    <br />
+                                    Other libraries are often modules for these engines.
+                                </p>
+                            </div>
                             <div className="overflow-hidden">
                                 <img src={Negen1Screenshot} alt="screenshot of a game made with negen1 (Nesta Engine)" className="rounded-xl w-full mr-auto" />
                             </div>
@@ -33,14 +35,16 @@ function App() {
                     </Link>
                     {/* Cursor Hell, OptiDice */}
                     <Link to="/programs" className="basis-1/2">
-                        <div className="border border-red-300/50 p-4 rounded-2xl h-110 flex flex-col
+                        <div className="border border-red-300/50 p-4 rounded-2xl h-full flex flex-col justify-between
                             transition hover:shadow-2xl hover:shadow-red-200/50 hover:scale-101
                         ">
-                            <h3 className="text-right text-3xl text-orange-200">Programs</h3>
-                            <p className="text-right text-red-200 my-5">
-                                Games or other programs that use graphics would be Cursor Hell, a bullet hell
-                                game made with OpenGL, and OptiDice, a 3D dice app for WearOS.
-                            </p>
+                            <div>
+                                <h3 className="text-right text-3xl text-orange-200">Programs</h3>
+                                <p className="text-right text-red-200 my-5">
+                                    Games or other programs that use graphics would be Cursor Hell, a bullet hell
+                                    game made with OpenGL, and OptiDice, a 3D dice app for WearOS.
+                                </p>
+                            </div>
                             <div className="overflow-hidden">
                                 <img src={CHellScreenshot} alt="screenshot of a game made with negen1 (Nesta Engine)" className="rounded-xl w-full ml-auto" />
                             </div>

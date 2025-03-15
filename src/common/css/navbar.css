@@ -9,10 +9,14 @@
 .bo-diagonal::after {
     position: absolute;
     top: -1rem;
-    left: 3rem;
+    left: -7rem;
     height: 15rem;
+    width: 10rem;
     content: "";
     border-right: 1px white solid;
 
     transform: skewX(-30deg);
+    z-index: -1;
+    
+    backdrop-filter: blur(1rem);
 }
