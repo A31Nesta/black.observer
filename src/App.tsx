@@ -9,7 +9,7 @@ function App() {
         <div className="bg-gradient-to-br from-gray-950 to-fuchsia-950/50 min-h-lvh">
             <BONav></BONav>
             <div className="m-auto max-w-7xl p-4 pt-5">
-                <A31Pres className="max-w-lg" />
+                <A31Pres className="max-w-lg m-auto" />
             </div>
             <main className="m-auto max-w-5xl p-4 pt-5">
 

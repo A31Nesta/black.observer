@@ -13,7 +13,7 @@ function Negen2() {
                     <h2 className="font-marcellus text-2xl md:text-3xl">Black Observer Engine</h2>
                 </div>
 
-                <p className="md:mr-auto md:w-1/2 p-4 border border-gray-300/50 rounded-2xl">
+                <p className="md:m-auto md:w-1/2 p-4 border border-gray-300/50 rounded-2xl">
                     This engine was created because of the spaghetti monster I created with Nesta Engine
                     and ended up in the same way.
                     <br />
