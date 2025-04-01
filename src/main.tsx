@@ -1,6 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { BrowserRouter, Route, Routes } from 'react-router'
+import { HashRouter, Route, Routes } from 'react-router'
 import App from './App.tsx'
 import './styles.css'
 import BOLibraries from './pages/libraries.tsx'
@@ -14,7 +14,7 @@ import ScrollOnRoute from './ScrollOnRoute.tsx'
 import BOPrograms from './pages/programs.tsx'
 
 createRoot(document.getElementById('root')!).render(
-  <BrowserRouter>
+  <HashRouter>
     <StrictMode>
       <ScrollOnRoute>
         <Routes>
@@ -40,5 +40,5 @@ createRoot(document.getElementById('root')!).render(
         </Routes>
       </ScrollOnRoute>
     </StrictMode>
-  </BrowserRouter>,
+  </HashRouter>,
 )
