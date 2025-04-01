@@ -12,7 +12,7 @@ function Negen3() {
                     <img src={Logo} alt="The Black Engine Logo" className="h-full" />
                 </div>
 
-                <div className="flex gap-4">
+                <div className="flex gap-4 flex-col md:flex-row">
                     <div className="border border-green-300 rounded-2xl p-4">
                         <h2 className="text-2xl mb-4">Truly Modular</h2>
                         <p>
@@ -72,12 +72,9 @@ function Negen3() {
                     </p>
                     <h3 className="text-xl my-4">Move to Dawn?</h3>
                     <p className="my-2">
-                        Yeeeahh, I could do that... but then I would have to move from Meson back to CMake and actually
-                        fix my CMakeLists.txt...
-                        <br />
-                        If you think about it it was the best option, but seeing how most of the Native WebGPU community
-                        was on Rust I also wanted to check it out, especially after seeing that the build system and package
-                        management was better.
+                        Yeah, I could do that, though seeing how most of the WebGPU community is using either JavaScript/TypeScript
+                        or Rust (because of WGPU) and how Cargo solves all my issues with dependencies and cross-compilation,
+                        I decided to move.
                     </p>
                     <h3 className="text-xl my-4">Back to the present day</h3>
                     <Link to="/reclibs/obstruction" className="text-center block p-4 border border-gray-400 text-gray-300 rounded-xl

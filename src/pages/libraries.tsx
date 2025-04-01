@@ -11,14 +11,20 @@ function BOLibraries() {
         <>
             <BONav></BONav>
             <main className="m-auto max-w-5xl p-4 pt-5">
-                <h2 className="text-center text-4xl text-fuchsia-50 mb-5 font-mono">REcLibs</h2>
+                <h2 className="text-center text-4xl text-fuchsia-50 mb-5 font-mono">Game Engine</h2>
 
                 <BOListElement link="/reclibs" title="REcLibs" img={Negen4Screenshot}>
-                A collection of libraries created for my main game engine project (Obstruction)
-                but usable in other contexts.
+                    A collection of libraries created for my main game engine project (Obstruction)
+                    but usable in other contexts.
                 </BOListElement>
 
-                <h2 className="text-center text-2xl text-fuchsia-50 mt-10 mb-5 font-mono">How did we get here?</h2>
+                <h2 className="text-center text-4xl text-fuchsia-50 mt-10 mb-5 font-mono">Languages</h2>
+
+                <BOListElement link="/libraries/grand" title="GRand" img={Negen4Screenshot}>
+                    A JIT-compiled regex-like language for constraint-based random number generation.
+                </BOListElement>
+
+                <h2 className="text-center text-4xl text-fuchsia-50 mt-10 mb-5 font-mono">Previous Engines</h2>
 
                 <BOListElement link="/libraries/negen1" title="Nesta Engine" img={Negen1Screenshot}>
                     Nesta Engine (negen1) is the first engine I've ever made. It was a cross-platform engine made
@@ -35,9 +41,9 @@ function BOLibraries() {
                     Instead of focusing on the graphics, I focused on modularity and the ability to configure everything.
                 </BOListElement>
 
-                <BOListElement link="/libraries/negen3" title="Occlusion" img={Negen3Screenshot}>
-                    Occlusion (negen3) is the most modular engine, it used C++ for scripting via Dynamic Libraries and
-                    used a custom renderer that supported BGFX and WebGPU.
+                <BOListElement link="/libraries/negen3" title="EcLibs" img={Negen3Screenshot}>
+                    Occlusion (negen3), a truly modular library using C++ for scripting via Dynamic Libraries and
+                    Penumbra, a custom renderer that supported BGFX and WebGPU.
                 </BOListElement>
             </main>
         </>

@@ -9,6 +9,7 @@ import Negen2 from './pages/libraries/negen2.tsx'
 import Negen3 from './pages/libraries/negen3.tsx'
 import Reclibs from './pages/reclibs.tsx'
 import Obstruction from './pages/reclibs/obstruction.tsx'
+import GRandWebsite from './pages/libraries/grand.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <BrowserRouter>
@@ -21,6 +22,8 @@ createRoot(document.getElementById('root')!).render(
           <Route path='negen1' element={<Negen1 />} />
           <Route path='negen2' element={<Negen2 />} />
           <Route path='negen3' element={<Negen3 />} />
+
+          <Route path='grand' element={<GRandWebsite />} />
         </Route>
 
         <Route path='/reclibs'>
