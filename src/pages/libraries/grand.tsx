@@ -98,6 +98,29 @@ function GRandWebsite() {
                         </div>
                     </div>
                 </div>
+
+                <h2 className="text-2xl mt-8 mb-4 text-fuchsia-200">/ The Language</h2>
+                <p>
+                    The language is designed to be intuitive and easy to learn;
+                    here is everything you need to know:
+                </p>
+                <h3 className="text-xl my-4 text-violet-200">// Ranges</h3>
+                <p className="mb-2">
+                    Ranges are the core of Grand; they generate a number between two numbers.
+                </p>
+                <p className="mb-2">
+                    Ranges can be open, closed or mixed. The following buttons are example
+                    expressions for each type of range labeled with what they do.
+                </p>
+                <p>
+                    <span className="font-bold">Ignore the pipe (|) and everything
+                    after it for now.</span> Just know that it forces the generated numbers to be integers.
+                </p>
+                <button onClick={() => setExpression("0..10|*1")}>
+                    Between 0 inclusive to 10 inclusive
+                </button>
+                <h4 className="text-lg my-2 text-violet-300">/// Constraints</h4>
+                <h3 className="text-xl my-4 text-violet-200">// Selections</h3>
             </main>
         </>
     );
