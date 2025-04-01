@@ -1,6 +1,7 @@
 import BONav from "./common/navbar"
 import Negen1Screenshot from './assets/img/screenshots/NEScreenshot.png';
 import CHellScreenshot from './assets/img/screenshots/CHell.png';
+import UnknownForNow from './assets/img/logos/unknown_w.svg'
 import { Link } from "react-router";
 import A31Pres from "./pages/components/A31Presentation";
 
@@ -57,7 +58,7 @@ function App() {
                     </Link>
                 </div>
 
-                <h2 className="text-center text-4xl text-fuchsia-50 mt-10 mb-4">Unk<span className="font-mono text-fuchsia-200">now</span>n</h2>
+                <img src={UnknownForNow} alt="unk[now]n" className="h-14 m-auto mt-8 mb-4" />
                 <p className="text-center text-violet-300 mb-5">
                     Made or will be made by someone for a reason
                 </p>

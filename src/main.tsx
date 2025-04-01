@@ -11,6 +11,7 @@ import Reclibs from './pages/reclibs.tsx'
 import Obstruction from './pages/reclibs/obstruction.tsx'
 import GRandWebsite from './pages/libraries/grand.tsx'
 import ScrollOnRoute from './ScrollOnRoute.tsx'
+import BOPrograms from './pages/programs.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <BrowserRouter>
@@ -26,6 +27,10 @@ createRoot(document.getElementById('root')!).render(
             <Route path='negen3' element={<Negen3 />} />
 
             <Route path='grand' element={<GRandWebsite />} />
+          </Route>
+
+          <Route path='/programs'>
+            <Route index element={< BOPrograms/>} />
           </Route>
 
           <Route path='/reclibs'>
