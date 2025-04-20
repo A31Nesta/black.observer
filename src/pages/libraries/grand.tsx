@@ -1,6 +1,6 @@
 import { FormEvent, useEffect, useState } from "react";
 import BONav from "../../common/navbar";
-import initSync, { expr, GrandEx } from "../../grand/grand";
+import initSync, { compile, GrandEx } from "../../grand/grand";
 
 function GRandWebsite() {
     const [resultOk, setResultOk] = useState(true);
@@ -40,7 +40,7 @@ function GRandWebsite() {
         let gex: GrandEx;
         if (expression != compiledStringEx) {
             try {
-                gex = expr(expression.toString());
+                gex = compile(expression.toString());
 
                 // Free previous GrandExpr
                 if (compiledGrandEx) {
@@ -63,7 +63,7 @@ function GRandWebsite() {
         }
 
         try {
-            let res = gex.eval();
+            let res = gex.generate();
             setResult(res.toString());
             setResultOk(true);
         } catch (_) {
