@@ -59,7 +59,7 @@ function Negen1() {
                                 So... did this engine get games? The answer would be yes! ...n't.
                                 <br />
                                 It got demos that never got published. Of course, I started creating the engine because I
-                                wanted to make a game (unk<span className="font-mono text-amber-100">now</span>n), but
+                                wanted to make a game (<span className="font-serif text-lg">unk<span className="font-mono text-amber-100 text-md">now</span>n</span>), but
                                 I also made other games, like <span className="font-bold">Online Sign Game</span>.
                             </p>
                             <p className="my-2">

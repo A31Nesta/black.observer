@@ -3,22 +3,18 @@ import Negen1Screenshot from './assets/img/screenshots/NEScreenshot.png';
 import CHellScreenshot from './assets/img/screenshots/CHell.png';
 import UnknownForNow from './assets/img/logos/unknown_w.svg'
 import { Link } from "react-router";
-import A31Pres from "./pages/components/A31Presentation";
 
 function App() {
     return (
         <div className="bg-gradient-to-br from-gray-950 to-fuchsia-950/50 min-h-lvh">
             <BONav></BONav>
-            <div className="m-auto max-w-7xl p-4 pt-5">
-                <A31Pres className="max-w-lg m-auto" />
-            </div>
             <main className="m-auto max-w-5xl p-4 pt-5">
-
-                <h2 className="text-center text-4xl text-fuchsia-50 mt-8 mb-4 font-mono">My Stuff</h2>
+            <h2 className="text-center text-4xl text-fuchsia-50 mt-8 mb-4 font-mono">The Black Observer</h2>
                 <p className="text-center text-violet-300 mb-5">
-                    Over the years I've been learning to write decent programs and libraries so
-                    here are some of my past and current projects:
+                    Welcome to The Black Observer! This messy and poorly designed website is
+                    where I show off any project worth showing off.
                 </p>
+                <h2 className="text-center text-4xl text-fuchsia-50 mt-15 mb-4 font-mono">Projects</h2>
                 
                 <div className="flex gap-4 flex-col md:flex-row">
                     {/* Nesta Engines... */}
@@ -47,18 +43,18 @@ function App() {
                             <div>
                                 <h3 className="text-right text-3xl text-orange-200">Programs</h3>
                                 <p className="text-right text-red-200 my-5">
-                                    Ready-to-use programs, websites or games like Cursor Hell, a bullet hell
+                                    Programs, websites or games like Cursor Hell, a bullet hell
                                     game made with OpenGL, or OptiDice, a 3D dice app for WearOS.
                                 </p>
                             </div>
                             <div className="overflow-hidden">
-                                <img src={CHellScreenshot} alt="screenshot of a game made with negen1 (Nesta Engine)" className="rounded-xl w-full ml-auto" />
+                                <img src={CHellScreenshot} alt="screenshot of Cursor Hell" className="rounded-xl w-full ml-auto" />
                             </div>
                         </div>
                     </Link>
                 </div>
 
-                <img src={UnknownForNow} alt="unk[now]n" className="h-14 m-auto mt-8 mb-4" />
+                <img src={UnknownForNow} alt="unk[now]n" className="h-14 m-auto mt-15 mb-4" />
                 <p className="text-center text-violet-300 mb-5">
                     Made or will be made by someone for a reason
                 </p>

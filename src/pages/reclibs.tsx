@@ -11,7 +11,7 @@ function Reclibs() {
 
                 <p className="p-4 border rounded-2xl border-amber-100">
                     This project is a collection of libraries that are used in Obstruction,
-                    my custom game engine.
+                    the game engine for the [Unknown for Now] project.
                 </p>
 
                 <p className="p-4 border rounded-2xl border-red-300 bg-red-400/10 my-4">
@@ -21,6 +21,9 @@ function Reclibs() {
 
                 <BOListElement link="obstruction" title="Obstruction" img={Negen4Screenshot}>
                     Modular, performant, cross-platform and moddable game engine for [Unknown for now].
+                    <br />
+                    Inspired by old engines like Source and modern aesthetics, negen4 aims to
+                    offer attractive visuals to old and low-end hardware by using old techniques.
                 </BOListElement>
             </main>
         </>
