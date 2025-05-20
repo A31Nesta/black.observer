@@ -15,7 +15,7 @@ function Negen1() {
                     <img src={Logo} alt="The Nesta Engine Logo" className="h-full" />
                 </div>
                 <div className="flex flex-col md:flex-row gap-4">
-                    <div>
+                    <div className="basis-1/2">
                         <p className="text-amber-100 text-justify">
                             In 2020, after learning to use tools like Unity and some C++ with SFML, I became interested
                             in graphics APIs like Vulkan and OpenGL. Wanting to learn more about graphics and make some games,
@@ -34,7 +34,7 @@ function Negen1() {
                             <li>Assimp</li>
                         </ul>
                     </div>
-                    <img src={Negen1sc1} alt="Negen1 screenshot" className="md:w-1/2 rounded-2xl" />
+                    <img src={Negen1sc1} alt="Negen1 screenshot" className="md:w-1/2 h-full rounded-2xl" />
                 </div>
 
                 <h2 className="font-marcellus my-8 text-center text-2xl md:text-3xl">Is it usable?</h2>
@@ -54,7 +54,7 @@ function Negen1() {
                     </p>
                     <h3 className="text-xl my-4">Made with Nesta Engine</h3>
                     <div className="flex flex-col md:flex-row gap-4">
-                        <div>
+                        <div className="basis-1/2">
                             <p className="my-2">
                                 So... did this engine get games? The answer would be yes! ...n't.
                                 <br />

@@ -79,7 +79,7 @@ function GRandWebsite() {
                 <h1 className="text-2xl md:text-3xl text-center font-marcellus mb-5">Glorified <span className="font-mono">rand();</span></h1>
 
                 <p className="p-4 border rounded-2xl border-blue-300 bg-violet-400/10 my-4">
-                    JIT-compiled regex-like language for constraint-based random number generation.
+                    Expression language for creating constraint-based random number generators.
                 </p>
 
                 <div className="flex flex-col md:flex-row gap-4 w-full">

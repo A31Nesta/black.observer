@@ -7,7 +7,7 @@ import BOLibraries from './pages/libraries.tsx'
 import Negen1 from './pages/libraries/negen1.tsx'
 import Negen2 from './pages/libraries/negen2.tsx'
 import Negen3 from './pages/libraries/negen3.tsx'
-import Reclibs from './pages/reclibs.tsx'
+import Bos from './pages/bos.tsx'
 import Obstruction from './pages/reclibs/obstruction.tsx'
 import GRandWebsite from './pages/libraries/grand.tsx'
 import ScrollOnRoute from './ScrollOnRoute.tsx'
@@ -33,8 +33,8 @@ createRoot(document.getElementById('root')!).render(
             <Route index element={< BOPrograms/>} />
           </Route>
 
-          <Route path='/reclibs'>
-            <Route index element={<Reclibs />} />
+          <Route path='/bos'>
+            <Route index element={<Bos />} />
             <Route path='obstruction' element={<Obstruction />} />
           </Route>
         </Routes>

@@ -1,27 +1,33 @@
 import BONav from "../common/navbar";
 import BOListElement from "./components/BOListElement";
 
+import UnknownForNow from '../assets/img/logos/unknown_w.svg'
+
 import Negen1Screenshot from '../assets/img/screenshots/NEScreenshot.png';
 import Negen2Screenshot from '../assets/img/screenshots/BOScreenshot.png';
 import Negen3Screenshot from '../assets/img/screenshots/PnmbrScreenshot.png';
 import Negen4Screenshot from '../assets/img/screenshots/OScreenshot.png';
+
+import MGScreenshot from '../assets/img/screenshots/mg-background.png';
 
 function BOLibraries() {
     return (
         <>
             <BONav></BONav>
             <main className="m-auto max-w-5xl p-4 pt-5">
-                <h2 className="text-center text-4xl text-fuchsia-50 mb-5 font-mono">Game Engine</h2>
+                <h2 className="text-center text-4xl text-fuchsia-50 mb-5 font-mono">Main Projects</h2>
 
-                <BOListElement link="/reclibs" title="REcLibs" img={Negen4Screenshot}>
-                    A collection of libraries created for my main game engine project (Obstruction)
-                    but usable in other contexts.
+                <BOListElement link="/bos" title="Project Generator" img={Negen4Screenshot}>
+                    conputer prorgams.
+                    <img src={UnknownForNow} alt="unk[now]n" className="h-10 mt-4" />
                 </BOListElement>
 
                 <h2 className="text-center text-4xl text-fuchsia-50 mt-10 mb-5 font-mono">Languages</h2>
 
-                <BOListElement link="/libraries/grand" title="GRand" img={Negen4Screenshot}>
-                    A JIT-compiled regex-like language for constraint-based random number generation.
+                <BOListElement link="/libraries/grand" title="GRand" img={MGScreenshot}>
+                    An expression language for creating constraint-based random number generators.
+                    <br className="block mt-4" style={{content: "close-quote"}} />
+                    Image somewhat related.
                 </BOListElement>
 
                 <h2 className="text-center text-4xl text-fuchsia-50 mt-10 mb-5 font-mono">Previous Engines</h2>
