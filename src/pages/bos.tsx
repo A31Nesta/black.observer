@@ -19,10 +19,10 @@ function Bos() {
                 </p>
 
                 <BOListElement link="obstruction" title="Obstruction" img={Negen4Screenshot}>
-                    Moddable, simple, good on low-spec hardware inspired by older
+                    Moddable, simple and fast game engine inspired by older
                     engines like Source and modern aesthetics.
                     <br />
-                    Designed for [Unknown for now].
+                    Designed for older hardware, made for [Unknown for now].
                 </BOListElement>
 
                 <BOListElement link="penumbra" title="Penumbra" img={Negen4Screenshot}>
@@ -30,14 +30,14 @@ function Bos() {
                 </BOListElement>
 
                 <BOListElement link="rsx" title="Rust Scripting XML" img={Negen4Screenshot}>
-                    JSX-style extension for Rust Scripting Languages (Rhai, Rune...) to
+                    JSX-style extension for Rust scripting languages to
                     create hot-reloadable reactive GPU-based interfaces.
                     <br />
                     Still in design phase.
                 </BOListElement>
 
                 <BOListElement link="oro-fs" title="ORO Filesystem" img={Negen4Screenshot}>
-                    Obstruction Read-Only Filesystem. A unified API for reading data
+                    Obstruction Read-Only Filesystem. A simple API for reading data
                     from Obstruction Asset Packages or the Filesystem seamlessly.
                     <br />
                     Designed to make developing and modding Obstruction games easy.
