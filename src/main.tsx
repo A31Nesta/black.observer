@@ -8,10 +8,11 @@ import Negen1 from './pages/libraries/negen1.tsx'
 import Negen2 from './pages/libraries/negen2.tsx'
 import Negen3 from './pages/libraries/negen3.tsx'
 import Bos from './pages/bos.tsx'
-import Obstruction from './pages/reclibs/obstruction.tsx'
+import Obstruction from './pages/bos/obstruction.tsx'
 import GRandWebsite from './pages/libraries/grand.tsx'
 import ScrollOnRoute from './ScrollOnRoute.tsx'
 import BOPrograms from './pages/programs.tsx'
+import OroFilesystem from './pages/bos/orofilesystem.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <HashRouter>
@@ -36,6 +37,7 @@ createRoot(document.getElementById('root')!).render(
           <Route path='/bos'>
             <Route index element={<Bos />} />
             <Route path='obstruction' element={<Obstruction />} />
+            <Route path='oro-fs' element={<OroFilesystem />} />
           </Route>
         </Routes>
       </ScrollOnRoute>

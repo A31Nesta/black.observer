@@ -10,8 +10,8 @@ function Obstruction() {
                     <img src={Logo} alt="The Black Engine Logo" className="h-full" />
                 </div>
 
-                <p className="p-4 border rounded-2xl border-red-300 bg-red-950/50 my-4">
-                    This is a game engine. Come back when I can actually show something.
+                <p className="p-4 border rounded-2xl border-purple-300 bg-purple-950/50 my-4">
+                    Extremely moddable game engine for low-end hardware.
                 </p>
             </main>
         </div>
