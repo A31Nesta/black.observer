@@ -29,11 +29,11 @@ function Bos() {
                     Rust renderer for Obstruction.
                 </BOListElement>
 
-                <BOListElement link="rsx" title="Rust Scripting XML" img={Negen4Screenshot}>
-                    JSX-style extension for Rust scripting languages to
-                    create hot-reloadable reactive GPU-based interfaces.
+                <BOListElement link="selui" title="SelUI" img={Negen4Screenshot}>
+                    Simple Layout and UI. A basic UI composed of a base UI system,
+                    Simple UI (SUI) and an optional layout system, Simple Layout (SEL).
                     <br />
-                    Still in design phase.
+                    <pre>/[Ss]e[lr]/ UI</pre>
                 </BOListElement>
 
                 <BOListElement link="oro-fs" title="ORO Filesystem" img={Negen4Screenshot}>
