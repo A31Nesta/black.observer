@@ -61,7 +61,7 @@ function Negen3() {
                         had to build WGPU-Native.
                     </p>
                     <p className="my-2">
-                        While I originally used BGFX, I really didn't enjoy using it, so I implemented WebGPU in my renderer.
+                        While I originally used BGFX, I didn't really enjoy using it, so I implemented WebGPU in my renderer.
                         <br />
                         The problem? While they do have their own pre-built executables, I wanted to automate the building
                         process, so I wanted to build it myself. Building it made my renderer crash at some point.
@@ -74,13 +74,13 @@ function Negen3() {
                     <p className="my-2">
                         Yeah, I could do that, though seeing how most of the WebGPU community is using either JavaScript/TypeScript
                         or Rust (because of WGPU) and how Cargo solves all my issues with dependencies and cross-compilation,
-                        I decided to move.
+                        I decided to learn Rust instead.
                     </p>
                     <h3 className="text-xl my-4">Back to the present day</h3>
-                    <Link to="/reclibs/obstruction" className="text-center block p-4 border border-gray-400 text-gray-300 rounded-xl
+                    <Link to="/bos" className="text-center block p-4 border border-gray-400 text-gray-300 rounded-xl
                         hover:border-white hover:text-white
                     ">
-                        Obstruction
+                        Project Generator
                     </Link>
                 </BOTextEd>
 

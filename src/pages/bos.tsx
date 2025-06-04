@@ -22,11 +22,11 @@ function Bos() {
                     Moddable, simple and fast game engine inspired by older
                     engines like Source and modern aesthetics.
                     <br />
-                    Designed for older hardware, made for [Unknown for now].
+                    Designed for older hardware, made for a reason.
                 </BOListElement>
 
                 <BOListElement link="penumbra" title="Penumbra" img={Negen4Screenshot}>
-                    Rust renderer for Obstruction.
+                    Obstruction's renderer.
                 </BOListElement>
 
                 <BOListElement link="selui" title="SelUI" img={Negen4Screenshot}>

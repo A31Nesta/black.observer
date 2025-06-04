@@ -13,6 +13,7 @@ import GRandWebsite from './pages/libraries/grand.tsx'
 import ScrollOnRoute from './ScrollOnRoute.tsx'
 import BOPrograms from './pages/programs.tsx'
 import OroFilesystem from './pages/bos/orofilesystem.tsx'
+import Gamut from './pages/bos/gamut.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <HashRouter>
@@ -38,6 +39,7 @@ createRoot(document.getElementById('root')!).render(
             <Route index element={<Bos />} />
             <Route path='obstruction' element={<Obstruction />} />
             <Route path='oro-fs' element={<OroFilesystem />} />
+            <Route path='gamut' element={<Gamut />} />
           </Route>
         </Routes>
       </ScrollOnRoute>
