@@ -3,7 +3,7 @@ import Logo from "../../assets/img/logos/obstruction-w.svg";
 
 function Obstruction() {
     return (
-        <div className="bg-gradient-to-bl from-red-950 via-emerald-950 to-purple-950 min-h-lvh">
+        <div className="bg-gradient-to-bl from-purple-950 via-black to-orange-950 min-h-lvh">
             <BONav />
             <main className="max-w-5xl m-auto p-4 pt-5">
                 <div className="flex gap-4 justify-center h-20 md:h-30 items-center mb-8">
