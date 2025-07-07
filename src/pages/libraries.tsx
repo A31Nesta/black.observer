@@ -1,7 +1,7 @@
 import BONav from "../common/navbar";
 import BOListElement from "./components/BOListElement";
 
-import UnknownForNow from '../assets/img/logos/unknown_w.svg'
+// import UnknownForNow from '../assets/img/logos/unknown_w.svg'
 
 import Negen1Screenshot from '../assets/img/screenshots/NEScreenshot.png';
 import Negen2Screenshot from '../assets/img/screenshots/BOScreenshot.png';
@@ -18,8 +18,8 @@ function BOLibraries() {
                 <h2 className="text-center text-4xl text-fuchsia-50 mb-5 font-mono">Main Projects</h2>
 
                 <BOListElement link="/bos" title="Project Generator" img={Negen4Screenshot}>
-                    conputer prorgams.
-                    <img src={UnknownForNow} alt="unk[now]n" className="h-10 mt-4" />
+                    Utilities and libraries for rendering, filesystem access and more; unknown for now
+                    but made for a reason.
                 </BOListElement>
 
                 <h2 className="text-center text-4xl text-fuchsia-50 mt-10 mb-5 font-mono">Languages</h2>

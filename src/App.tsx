@@ -9,10 +9,9 @@ function App() {
         <div className="bg-gradient-to-br from-gray-950 to-fuchsia-950/50 min-h-lvh">
             <BONav></BONav>
             <main className="m-auto max-w-5xl p-4 pt-5">
-            <h2 className="text-center text-4xl text-fuchsia-50 mt-8 mb-4 font-mono">The Black Observer</h2>
+            <h2 className="text-center text-4xl text-fuchsia-50 mt-8 sm:mt-0 mb-4 font-mono">The Black Observer</h2>
                 <p className="text-center text-violet-300 mb-5">
-                    Welcome to The Black Observer! This messy and poorly designed website is
-                    where I show off any project worth showing off.
+                    Software made by someone for a reason.
                 </p>
                 <h2 className="text-center text-4xl text-fuchsia-50 mt-15 mb-4 font-mono">Projects</h2>
                 
